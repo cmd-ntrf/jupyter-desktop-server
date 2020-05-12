@@ -23,6 +23,7 @@ def setup_desktop():
     ]))
     return {
         'command': [
+            'dbus-launch',
             'websockify', '-v',
             '--web', os.path.join(HERE, 'share/web/noVNC-1.1.0'),
             '--heartbeat', '30',
