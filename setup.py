@@ -7,7 +7,7 @@ setup(
     version='0.1.2',
     entry_points={
         'jupyter_serverproxy_servers': [
-            'desktop = jupyter_desktop:setup_desktop',
+            'Desktop = jupyter_desktop:setup_desktop',
         ]
     },
     install_requires=['jupyter-server-proxy>=1.2.0'],
